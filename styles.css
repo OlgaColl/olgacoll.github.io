@@ -1,14 +1,37 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1ABC9C;
+  font-size: 30px;
+}
+
 body {
 	background-color: #2D2D2D;
 }
 
 h1 {
-	color: #92DDF0;
+	color: #2D2D2D;
 	font-size: 30px;
 	font-family: Menlo, Monaco, fixed-width;
 }
 
-p {
+h2 {
+	color: white;
+}
+
+p, ul, li{
 	color: white;
 	font-family: "Source Code Pro", Menlo, Monaco, fixed-width;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+  color: #1ABC9C;
+}
+
+a:link {
+	text-decoration:none;
 }
